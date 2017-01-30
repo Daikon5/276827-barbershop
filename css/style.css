@@ -106,3 +106,35 @@ h2 {
   float: right;
   width: 180px;
 }
+
+.navigation2 {
+  margin-bottom: 60px;
+}
+
+.breadcrumbs {
+  float: left;
+  margin-right: auto;
+}
+
+.item-photos {
+  float: left;
+  width: 460px;
+  background: #fff123;
+}
+
+.item-miniatures img {
+  display:inline-block;
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+  outline-color: invert;
+}
+
+.item-miniatures img:last-child {
+  margin-right: 0;
+}
+
+.item-description {
+  float: right;
+  width: 300px;
+}
