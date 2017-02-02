@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп "Бородинский"</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <nav class="main-navigation">
+        <div class="header-logo">
           <a href="index.html"><img src="img/logo.png" width="111" height="24" alt="Главная страница"></a>
+        </div>
+        <nav class="main-navigation-inner">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -31,9 +32,9 @@
         <div class="user-block">
           <a class="login" href="#">Вход</a>
         </div>
-      </div>
     </header>
-    <main class="container">
+    <main>
+    <div class="breadcrumbs-layout">
       <h1 class="item-name">Средства для ухода</h1>
         <div class="breadcrumbs">
           <ul>
@@ -48,6 +49,9 @@
           </li>
           </ul>
         </div>
+      </div>
+      <div class="shop-itself">
+          <section class="shop-left-column">
         <div class="producers">
           <p>Производители:<br>
             <input type="radio" name="producer" value="baxter">Baxter of California<br>
@@ -66,7 +70,8 @@
           </p>
           <button type="submit">Показать</button>
         </div>
-        <div class="items">
+      </section>
+      <section class="shop-right-column">
           <div class="item">
             <img src="img/baxter-travel.jpg" width="220" height="165" alt="Набор для путешествий Baxter of California">
             <p>Набор для путешествий "Baxter of California"</p>
@@ -103,7 +108,7 @@
             <p class="price">3900 руб.</p>
             <button type="submit">Купить</button>
           </div>
-        </div>
+      </div>
         <div class="page-number">
           <ul>
             <li>
@@ -120,9 +125,9 @@
             </li>
           </ul>
         </div>
+      </section>
     </main>
     <footer class="main-footer">
-      <div class="container">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -139,7 +144,6 @@
           <p>Разработано:</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
-      </div>
     </footer>
   </body>
 </html>
